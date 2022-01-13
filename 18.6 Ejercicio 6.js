@@ -3,6 +3,10 @@ const letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N',
 
 const numero = prompt("Ponga un número para el Documento Nacional de Identidad (DNI):");
 
+if (isNaN(numero)) {
+    alert("No es un número")
+}
+
 if (numero < 0) {
 	alert("Los números negativos no son válidos.")
 };
