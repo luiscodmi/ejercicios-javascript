@@ -13,7 +13,8 @@ if (numericValue < 0) {
 
 	alert("Los números negativos no son válidos.")
 };
-if (numero > 99999999) {
+if (numericValue > 99999999) {
+
 	alert("Este número excede a la cifra requerida.")
 };
 
