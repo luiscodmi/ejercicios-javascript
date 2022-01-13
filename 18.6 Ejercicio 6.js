@@ -9,9 +9,6 @@ if (numero < 0) {
 if (numero > 99999999) {
 	alert("Este número excede a la cifra requerida.")
 };
-// if (numero == numero.String) {
-// 	alert("No puede.")
-// };
 
 console.log(letras.length)
 
