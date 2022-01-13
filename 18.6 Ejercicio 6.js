@@ -7,7 +7,10 @@ if (isNaN(numero)) {
     alert("No es un número")
 }
 
-if (numero < 0) {
+const numericValue = Number(numero)
+
+if (numericValue < 0) {
+
 	alert("Los números negativos no son válidos.")
 };
 if (numero > 99999999) {
